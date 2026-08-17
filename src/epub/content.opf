@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/mor-jokai/the-slaves-of-the-padishah/robert-nisbet-bain</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-08-17T20:59:44Z</dc:date>
+		<meta property="dcterms:modified">2026-08-17T20:59:44Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
@@ -40,16 +40,16 @@
 		<meta id="collection-1" property="belongs-to-collection">Prince Apafi</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">2</meta>
-		<meta property="schema:abstract">Turkish control over Eastern Europe is in danger over conflict with the German Kaiser.</meta>
+		<meta property="schema:abstract">A Transylvanian nobel tries to consolidate Ottoman power over Eastern Europe.</meta>
 		<dc:description>
-			&lt;p&gt;Michael Teleki, a Transylvanian noble and councillor to &lt;a href="https://standardebooks.org/collections/prince-apafi"&gt;Prince Apafi&lt;/a&gt;, is an ambitious and cunning politician, who seeks to increase his own power and social status. In order to do that, he attempts to manipulate members of the Ottoman Sultanate to attack Hungary, with hopes that he will become its Palatine.&lt;/p&gt;
-			&lt;p&gt;A sequel to &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/mor-jokai/midst-the-wild-carpathians/robert-nisbet-bain"&gt;’Midst the Wild Carpathians&lt;/a&gt;&lt;/i&gt;, &lt;i&gt;The Slaves of the Padishah&lt;/i&gt; sees the return of most of the characters of the previous novel. Much like the first installment, this novel is a fictionalized version of real events, in this case the loss of Turkish control over Hungary and the expansion of the Holy Roman Empire to previous territories of the Sultanate.&lt;/p&gt;
+			&lt;p&gt;Michael Teleki, a Transylvanian noble and councilor to &lt;a href="https://standardebooks.org/collections/prince-apafi"&gt;Prince Apafi&lt;/a&gt;, is an ambitious and cunning politician who seeks to increase his power and social status. In order to do that, he attempts to manipulate members of the Ottoman Sultanate to attack Hungary, with hopes that he will become its Palatine.&lt;/p&gt;
+			&lt;p&gt;A sequel to &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/mor-jokai/midst-the-wild-carpathians/robert-nisbet-bain"&gt;’Midst the Wild Carpathians&lt;/a&gt;&lt;/i&gt;, &lt;i&gt;The Slaves of the Padishah&lt;/i&gt; sees the return of most of the characters of the previous novel. Much like the first installment, this novel is a fictionalized version of real events: in this case, the loss of Turkish control over Hungary and the expansion of the Holy Roman Empire to territories previously controlled by the Sultanate.&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/39048</dc:source>
 		<dc:source>https://archive.org/details/slavespadishah00unkngoog</dc:source>
-		<meta property="schema:wordCount">WORD_COUNT</meta>
-		<meta property="schema:educationalLevel">READING_EASE</meta>
+		<meta property="schema:wordCount">116154</meta>
+		<meta property="schema:educationalLevel">65.46</meta>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/mor-jokai_the-slaves-of-the-padishah_robert-nisbet-bain" refines="#vcs-repository" rel="schema:codeRepository"/>
@@ -85,6 +85,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
+		<link href="https://www.robinwhittleton.com/" refines="#producer-2" rel="schema:url"/>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
